@@ -8,7 +8,7 @@ theme = 'typo'
 description = "Sander Ledegen, a web developer from Belgium."
 
 showFooter = true
-footerContent = "&copy; 2025 Sander Ledegen &ndash; Powered by [Hugo](https://gohugo.io/) and [Typo](https://github.com/tomfran/typo)"
+footerContent = "&copy; 2026 Sander Ledegen &ndash; Powered by [Hugo](https://gohugo.io/) and [Typo](https://github.com/tomfran/typo)"
 
 # Appearance settings
 theme = 'auto'
