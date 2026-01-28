@@ -1,0 +1,40 @@
+{{ $videoPath:= .Get `src` }}
+{{ $width:= .Get `width` }}
+{{ $height:= .Get `height` }}
+{{ $autoplay:= .Get `autoplay` | default `false` }}
+{{ $loop:= .Get `loop` | default `false` }}
+{{ $muted:= .Get `muted` | default `false` }}
+{{ $controls:= .Get `controls` | default `true` }}
+{{ $class:= .Get `class` }}
+{{ $poster:= .Get `poster` }}
+{{ $title:= .Get `title` }}
+
+
+{{ .Scratch.Set "video_path" $videoPath }}
+
+{{ $videoPath = .Scratch.Get "video_path" }}
+
+{{ if $videoPath }}
+  <figure>
+    <div>
+      <video
+        {{ with $width }}width="{{ . }}"{{ end }}
+        {{ with $height }}height="{{ . }}"{{ end }}
+        {{ if eq $autoplay `true` }}autoplay{{ end }}
+        {{ if eq $loop `true` }}loop{{ end }}
+        {{ if eq $muted `true` }}muted{{ end }}
+        {{ if eq $controls `true` }}controls{{ end }}
+        {{ with $poster }}poster="{{ . }}"{{ end }}
+        class="{{ $class }}"
+        style="max-width:100%">
+        <source src="{{ $videoPath }}" type="video/webm" />
+      </video>
+    </div>
+
+    {{ with $title }}
+    <div class="caption-container">
+        <figcaption> {{ . | markdownify}} </figcaption>
+    </div>
+    {{ end }}
+  </figure>
+{{ end }}

@@ -1,0 +1,7 @@
+/* Undo visually ugly space beneath smaller images
+https://github.com/tomfran/typo/pull/102 */
+figure {
+  .img-container {
+    /* aspect-ratio: auto; */
+  }
+}

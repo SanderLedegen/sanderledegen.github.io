@@ -1,0 +1,67 @@
+baseURL = 'https://sanderledegen.github.io/'
+languageCode = 'en-GB'
+title = 'Sander Ledegen'
+theme = 'typo'
+
+[params]
+# Meta description
+description = "Sander Ledegen, a web developer from Belgium."
+
+showFooter = true
+footerContent = "&copy; 2026 Sander Ledegen &ndash; Powered by [Hugo](https://gohugo.io/) and [Typo](https://github.com/tomfran/typo)"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'base16-eighties'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I'm Sander, a freelance full-stack web developer from Belgium.
+With a friend and colleague, I am also the co-founder of [Appgrade](https://appgrade.be) where we're trying our best to make a difference for our employees.\\
+\\
+Being quite interested in STEM topics, I'm often enough tinkering with or reading up on the latest techs. I strongly believe this gives me an advantage when working on clients' projects.\\
+\\
+Please feel free to learn more about [myself](/about) or take a look at my [posts](/posts) where I share my findings on various topics. Writing about it helps me summarising and remembering everything I learned.
+"""
+
+# Lists parameters
+paginationSize = 20
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+singleDateFormat = '2 January 2006'
+
+[params.breadcrumbs]
+enabled = false
+
+[params.umami]
+enable = true
+websiteId = 'c4a8e76b-b989-4bb8-8f6c-eb3f59412e56'
+jsLocation = '/a-script.js'
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/SanderLedegen/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/SanderLedegen"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[markup]
+[markup.highlight]
+noClasses = false
