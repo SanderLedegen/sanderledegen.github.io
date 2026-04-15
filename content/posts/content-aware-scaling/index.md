@@ -3,7 +3,7 @@ date: '2024-07-12'
 title: 'Resizing images the smart way'
 summary: 'Content-aware scaling using the seam carving algorithm'
 description: 'Content-aware scaling using the seam carving algorithm'
-tags: ['typescript', 'dynamic programming', 'digital image processing']
+tags: ['typescript', 'dynamic programming', 'digital image processing', 'math']
 hideBackToTop: false
 hidePagination: true
 readTime: true
