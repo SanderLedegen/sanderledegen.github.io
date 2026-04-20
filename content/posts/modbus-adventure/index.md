@@ -1,5 +1,6 @@
 ---
 date: '2026-04-15'
+lastmod: '2026-04-20'
 title: 'Going on a Modbus adventure with a Huawei inverter'
 summary: 'Reading data from a Huawei solar inverter using a self-made RS-485 cable'
 description: 'Reading data from a Huawei solar inverter using a self-made RS-485 cable'
@@ -111,7 +112,7 @@ Next, another cable had to be sacrificed. I bought a cheap Ethernet cable
 although I made sure it had twisted pairs and was foiled (shielded). As the communication
 with the inverter is serial and the AC wire runs next to it, the whole thing may
 be quite vulnerable to
-[EMI](https://en.wikipedia.org/wiki/Electromagnetic_induction). I'm looking for
+[EMI](https://en.wikipedia.org/wiki/Electromagnetic_interference). I'm looking for
 stability so I wasn't keen on trying my luck.
 
 ![Sacrificing an Ethernet cable to use one of its four twisted
