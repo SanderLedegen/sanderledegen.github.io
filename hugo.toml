@@ -19,11 +19,11 @@ hideHeader = false
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
 I'm Sander, a freelance full-stack web developer from Belgium.
-With a friend and colleague, I am also the co-founder of [Appgrade](https://appgrade.be) where we're trying our best to make a difference for our employees.\\
+Together with a friend and colleague, I am also the co-founder of [Appgrade](https://appgrade.be), where we do our best to make a real difference for our employees.\\
 \\
-Being quite interested in STEM topics, I'm often enough tinkering with or reading up on the latest techs. I strongly believe this gives me an advantage when working on clients' projects.\\
+Being genuinely interested in STEM topics, I'm often found tinkering with or reading up on the latest technology. I strongly believe this continuous learning gives me an advantage when working on clients' projects.\\
 \\
-Please feel free to learn more about [myself](/about) or take a look at my [posts](/posts) where I share my findings on various topics. Writing about it helps me summarising and remembering everything I learned.
+Please feel free to learn more [about me](/about) or take a look at my [blog posts](/posts), where I share my findings on various topics. Writing about it helps me summarise and retain everything I have learned.
 """
 
 # Lists parameters
